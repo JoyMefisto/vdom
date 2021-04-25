@@ -1,0 +1,23 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server",
+    "vdom-w": "babel -w --plugins @babel/plugin-transform-react-jsx src/js/index.js > src/js/index.babel.js",
+    "w": "npx babel src/js/index.js --watch --out-file src/js/index.babel.js",
+    "watch": "babel src -d dist -w"
+  },
+  "repository": "git@github.com:JoyMefisto/vdom.git",
+  "author": "Шанин Артём Юрьевич <joymefistoggc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "http-server": "^0.12.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}

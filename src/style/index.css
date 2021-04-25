@@ -1,0 +1,62 @@
+#root {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 30px 0 0 0;
+}
+
+.item {
+  background: yellow;
+  margin: 10px 0;
+}
+
+.item2 {
+  background: green;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.glide__slide {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#glide4 .glide__slides {
+  background-color: #f3f1f1;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+#glide4 .glide__slide {
+  position: relative;
+  height: 60px;
+  border: none;
+}
+
+#glide4 a {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#glide4 img {
+  margin: 0 auto;
+  display: block;
+  max-width: 70%;
+  max-height: 60px;
+}
+
+button.glide__arrow {
+  background-color: red;
+  border: none;
+  font-size: 11px;
+}
+
+button.glide__arrow--left {
+  left: 5px;
+}
+
+button.glide__arrow--right {
+  right: 5px;
+}
